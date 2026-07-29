@@ -69,3 +69,7 @@ export type {
   SchemaFieldDiff,
   VerifySchemaOptions,
 } from "./verifySchema.js";
+
+// Configuration exports for orbital.config.ts
+export { defineConfig } from "./defineConfig.js";
+export type { OrbitalConfig, ContractConfig } from "./defineConfig.js";
